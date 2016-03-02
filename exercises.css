@@ -18,6 +18,15 @@ body.c5{
 body.c6{
     background-color: #9e14ba;
 }
+body.c7{
+    background-color: #c1be0d;
+}
+body.c8{
+    background-color: #40b9d2;
+}
+body.c9{
+    background-color: #70a43b;
+}
 header{
     font-size: 2em;
     font-weight: bolder;
@@ -44,7 +53,7 @@ article{
     box-shadow:0 0 5px rgba(0,0,0,0.3);
 }
 article:first-of-type{
-    margin-top: 75px;
+    margin-top: 95px;
 }
 article:last-of-type{
     margin-bottom: 20px;
@@ -74,6 +83,15 @@ h3{
 }
 .c6 [id ^="result"]{
     color: #9e14ba;
+}
+.c7 [id ^="result"]{
+    color: #c1be0d;
+}
+.c8 [id ^="result"]{
+    color: #40b9d2;
+}
+.c9 [id ^="result"]{
+    color: #70a43b;
 }
 p+h3{
     clear: left;
@@ -147,3 +165,8 @@ hr{
     float: right;
 }
 
+/*/////////////////////////CHAPTER 7//////////////*/
+.c7 label,input,button{
+    float:left;
+    margin-right: 20px;
+}
