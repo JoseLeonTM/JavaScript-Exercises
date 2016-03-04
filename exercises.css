@@ -27,6 +27,9 @@ body.c8{
 body.c9{
     background-color: #70a43b;
 }
+body.c10{
+    background-color: #b76457;
+}
 header{
     font-size: 2em;
     font-weight: bolder;
@@ -92,6 +95,8 @@ h3{
 }
 .c9 [id ^="result"]{
     color: #70a43b;
+}.c10 [id ^="result"]{
+    color: #b76457;
 }
 p+h3{
     clear: left;
