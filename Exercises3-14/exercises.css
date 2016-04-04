@@ -1,0 +1,281 @@
+html{
+    font-family: verdana,arial, sans-serif;
+    font-size: 1.3em;
+}
+body{
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+body.c3{
+    background-color: #3e70ff;
+}
+body.c4{
+    background-color: #2ee060;
+}
+body.c5{
+    background-color: #eb5722;
+}
+body.c6{
+    background-color: #9e14ba;
+}
+body.c7{
+    background-color: #c1be0d;
+}
+body.c8{
+    background-color: #40b9d2;
+}
+body.c9{
+    background-color: #70a43b;
+}
+body.c10{
+    background-color: #b76457;
+}
+body.c12{
+    background-color: #b176f0;
+}
+body.c13{
+    background-color: #65f06a;
+}
+body.c14{
+    background-color: #bda125;
+}
+header{
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    min-height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    border-bottom: 2px solid #bebebe;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+article{
+    background-color: white;
+    padding: 2%;
+    margin-top: 10px;
+    height: auto;
+    overflow: auto;
+    min-height: 60px;
+    border-radius: 20px;
+    box-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+article:first-of-type{
+    margin-top: 95px;
+}
+article:last-of-type{
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 1.5em;
+    text-align: right;
+}
+h3{
+    float: left;
+    max-width: 50%;
+}
+[id ^="result"]{
+    float: left;
+    padding-left: 20px;
+    font-weight: bold;
+    max-width:45%;
+}
+.c3 [id ^="result"]{
+       color: #3e70ff;
+}
+.c4 [id ^="result"]{
+       color: #2ee060;
+}
+.c5 [id ^="result"]{
+    color: #eb3913;
+}
+.c6 [id ^="result"]{
+    color: #9e14ba;
+}
+.c7 [id ^="result"]{
+    color: #c1be0d;
+}
+.c8 [id ^="result"]{
+    color: #40b9d2;
+}
+.c9 [id ^="result"]{
+    color: #70a43b;
+}.c10 [id ^="result"]{
+    color: #b76457;
+}
+.c12 [id ^="result"]{
+     color: #b176f0;
+}
+.c13 [id ^="result"]{
+    color: #65f06a;
+}
+.c14 [id ^="result"]{
+    color: #bda125;
+}
+p+h3{
+    clear: left;
+}
+hr{
+    clear: both;
+    margin:15px 10px 15px 10px;
+}
+/*/////////////////////CHAPTER 5 UI///////////////////*/
+/*////////////////////// EXERCISE 1////////////////////*/
+#People, #Clients{
+    width:35%;
+    float: left;
+}
+#People{
+    border-right: 2px solid #acaba9;
+}
+#Clients{
+    margin-left: 10px;
+}
+#Register{
+    margin-top: 30px;
+    width: 25%;
+    float: left;
+}
+#Register p{
+    min-width: 100%;
+}
+.c5 label{
+    float:left;
+    display: inline-block;
+    font-size: 0.9em;
+    width:130px;
+    margin-top:10px;
+    clear:left;
+}
+.c5 input, .c5 button{
+    float:left;
+    margin-top:10px;
+    margin-left: 10px;
+}
+.c5 button{
+    color: white;
+    background-color: #eb3913;
+    border-radius: 15px;
+    border: 2px solid #eb3913;
+}
+.c5 button:hover{
+    color: #eb3913;
+    background: #FFF;
+}
+#Transactions{
+    border-top: 2px solid #acaba9;
+    margin-top: 10px;
+    padding-top: 10px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#Transactions button{
+    float: left;
+    clear: none;
+    margin-left: 20px;
+}
+#Transactions p{
+    margin-top: -80px;
+    width: 25%;
+}
+/*/////////////////EXERCISE 2///////////////////*/
+.c5 #result2{
+    float: right;
+}
+
+/*/////////////////////////CHAPTER 7//////////////*/
+.c7 label,input,button{
+    float:left;
+    margin-right: 20px;
+}
+/*///////////////CHAPTER 13/////////////////////*/
+.c13 table{
+    margin-left:auto;
+    margin-right:auto;
+}
+.c13 td {
+    border: 2px solid black;
+    padding:5px;
+    width:20px;
+    height:20px;
+    text-align: center;
+}
+/*////////////////////CHAPTER 14//////////////////*/
+.c14 #Title1 label{
+    float:left;
+    width: 40%;
+    display:inline-block;
+}
+.c14 #Columns, .c14 #Rows{
+    width: 20%;
+    margin:0 5%;
+    display:inline-block;
+    float:right;
+}
+.c14 button{
+    float:left;
+    margin-left:50px;
+}
+.c14 table td{
+    border: 1px solid #bda125;
+    width: 30px;
+    height: 30px;
+}
+.c14 #result1{
+    float:right;
+    margin-right:30%;
+    margin-top:10px;
+}
+.c14 #result2{
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.c14 #options{
+    float:left;
+    margin:0;
+    width: 50%;
+}
+.c14 #options label{
+    margin-left:20px;
+    display:inline-block;
+}
+/*///////////////////////////3RD EXERCISE///////////////////////////////*/
+.c14 #container div, .c14 .wrap{
+    margin-top:20px;
+    float:left;
+    clear:both;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding:10px;
+}
+.c14 img{
+float:left;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+border-radius: 20px;
+}
+.c14 #container .sideBySide img{
+    /*height: 200px;*/
+    width:37%;
+    margin-right: 3%;
+}
+.c14 #container .sideBySide p{
+    float:right;
+    width:60%;
+    height: 200px;
+    overflow: hidden;
+}
+.c14 .wrap img{
+    width: 30%;
+    margin: 0 5% 2% 0;
+}
+.c14 .wrap p{
+    margin-top:0;
+
+}
+
