@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="122fb361-8674-408d-b798-37f6e71ffaae" name="Default" comment="Initial">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter14/1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter14/2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter14/3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapter14/chapter14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises.css" afterPath="$PROJECT_DIR$/exercises.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript.html" afterPath="$PROJECT_DIR$/javascript.html" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter10\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter10\chapter10.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter12\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter12\chapter12.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter13\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter13\2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter13\chapter13.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter14\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter14\2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter14\3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter14\bvs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter14\chapter14.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter14\civilwar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter14\got.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter3\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter3\2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter3\3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter3\4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter3\5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter3\chapter3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter4\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter4\2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter4\3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter4\4.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter4\5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter4\6.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter4\chapter4.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter5\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter5\2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter5\chapter5.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter6\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter6\chapter6.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter7\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter7\2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter7\chapter7.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter8\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter8\2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter8\chapter8.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter9\1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jose Leon\Desktop\javascript examples\chapter9\chapter9.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="javascript examples.iws" />
@@ -28,68 +62,7 @@
     <favorites_list name="javascript examples" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="exercises.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="268" column="12" selection-start-line="268" selection-start-column="12" selection-end-line="268" selection-end-column="12" />
-              <folding>
-                <element signature="e#132#166#0" expanded="false" />
-                <element signature="e#174#208#0" expanded="false" />
-                <element signature="e#216#250#0" expanded="false" />
-                <element signature="e#258#292#0" expanded="false" />
-                <element signature="e#300#334#0" expanded="false" />
-                <element signature="e#342#376#0" expanded="false" />
-                <element signature="e#384#418#0" expanded="false" />
-                <element signature="e#427#461#0" expanded="false" />
-                <element signature="e#470#504#0" expanded="false" />
-                <element signature="e#513#547#0" expanded="false" />
-                <element signature="e#2107#2142#0" expanded="false" />
-                <element signature="e#2150#2190#0" expanded="false" />
-                <element signature="e#2199#2225#0" expanded="false" />
-                <element signature="e#2235#2293#0" expanded="false" />
-                <element signature="e#2305#2329#0" expanded="false" />
-                <element signature="e#2339#2461#0" expanded="false" />
-                <element signature="e#2483#2546#0" expanded="false" />
-                <element signature="e#2557#2665#0" expanded="false" />
-                <element signature="e#2682#2727#0" expanded="false" />
-                <element signature="e#2741#2875#0" expanded="false" />
-                <element signature="e#2896#2956#0" expanded="false" />
-                <element signature="e#2972#3014#0" expanded="false" />
-                <element signature="e#3078#3099#0" expanded="false" />
-                <element signature="e#3176#3219#0" expanded="false" />
-                <element signature="e#3281#3329#0" expanded="false" />
-                <element signature="e#3338#3444#0" expanded="false" />
-                <element signature="e#3516#3577#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chapter14.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter14/chapter14.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8381743">
-              <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter14/3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#45#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -156,9 +129,9 @@
         <option value="$PROJECT_DIR$/Friday Algorithms/Fishes.html" />
         <option value="$PROJECT_DIR$/chapter14/1.js" />
         <option value="$PROJECT_DIR$/chapter14/2.js" />
-        <option value="$PROJECT_DIR$/chapter14/chapter14.html" />
         <option value="$PROJECT_DIR$/chapter14/3.js" />
         <option value="$PROJECT_DIR$/exercises.css" />
+        <option value="$PROJECT_DIR$/chapter14/chapter14.html" />
       </list>
     </option>
   </component>
@@ -213,20 +186,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascript examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,20 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter7/2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68058455">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter7/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31941545">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Friday Algorithms/linkedList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
@@ -476,13 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6754967">
           <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter7/chapter7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.615385">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -507,24 +445,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter8/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/evalCreatingObjects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter8/2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46137786">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -542,24 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter8/chapter8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4581498">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035490606">
           <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter9/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4490566">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -661,20 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter13/2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58219177">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter13/chapter13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5483871">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/ReplacingSelfEnclosingTags.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
@@ -738,13 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter13/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29109588">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Friday Algorithms/Fishes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
@@ -759,34 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercises.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="268" column="12" selection-start-line="268" selection-start-column="12" selection-end-line="268" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.8017094">
+          <caret line="270" column="21" selection-start-line="270" selection-start-column="21" selection-end-line="270" selection-end-column="21" />
           <folding>
             <element signature="e#132#166#0" expanded="false" />
             <element signature="e#174#208#0" expanded="false" />
@@ -816,14 +681,6 @@
             <element signature="e#3338#3444#0" expanded="false" />
             <element signature="e#3516#3577#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter14/chapter14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8381743">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
