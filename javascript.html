@@ -10,33 +10,12 @@
 <h1>JavaScript</h1>
 <hr>
 <ul id="results"></ul>
-<script type="text/javascript">
+<div id="test"><b>Hello</b>, I'm a Ninja!</div>
+<div id="test2"></div>
+<script>
 
-function globalEval(data){
-        data = data.replace(/^\s*|\s* $/,"");
-        if(data){
-            var head= document.getElementsByTagName("head")[0] ||
-                            document.documentElement,
-                    script=document.createElement("script");
-            script.type="text/javascript";
-            script.text=data;
 
-            head.appendChild(script);
-            head.removeChild(script);
-        }
-    }
 
-window.onload=function(){
-    var scripts= document.getElementsByTagName("script");
-    for(var i=0;i<scripts.length;i++){
-        if(scripts[i].type=="x/onload"){
-            globalEval(scripts[i].innerHTML)
-        }
-    }
-}
-</script>
-<script type="x/onload">
-    assert(true, "Executed on page load");
 </script>
 </body>
 </html>
