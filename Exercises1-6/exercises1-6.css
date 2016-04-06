@@ -52,6 +52,7 @@ article p{
     font-size:1.2em;
     width: 30%;
     margin:20px;
+    display:inline-block;
 }
 button{
     border-radius: 10px;
@@ -62,24 +63,20 @@ button{
 }
 /*////////////////////////////////////EXERCISE 1//////////////////////////////////////*/
 #exercise1 p{
-    width: 100%;
+    width: 90%;
     margin:0;
 }
 /*/////////////////////////////////////////EXERCISE 2//////////////////////////////////////////*/
 #exercise2 p{
-    display: inline-block;
-
-
+    /*display: inline-block;*/
 }
 /*/////////////////////////////////////EXERCISE 3//////////////////////////////////////////////////*/
 #exercise3 p{
-    display:inline-block;
-    /*margin:20px;*/
+    /*display:inline-block;*/
 }
 /*////////////////////////////////////////////EXERCISE 4///////////////////////////////////////*/
 #exercise4 p{
     text-align: center;
-    /*width: 30%;*/
     padding: 10px;
     border: 1px solid white;
     display:inline-block;
@@ -97,4 +94,15 @@ button{
     width: 10%;
     font-size: 24px;
     padding:0;
+}
+/*//////////////////////////////////////////EXERCISE 6////////////////////////////////////*/
+#exercise6 div{
+    margin: 5px auto;
+    width: 80%;
+}
+#exercise6 p{
+    margin: 5px auto;
+    padding:0;
+    text-align: center;
+    border:1px solid white;
 }

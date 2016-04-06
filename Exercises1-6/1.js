@@ -5,9 +5,10 @@
 
 function Sort(sort,custom){
     var dictionary=['water','fire','television','music','telephone','circus','bicycle','algorithm','of','bat'];
-    document.getElementById('originalArray').innerHTML="This is the original array: "+dictionary;
+    document.getElementById('originalArray').innerHTML="This is the original array: "+dictionary.join(', ');
 
-        return dictionary.sort(function(a,b){
+        var newArray=dictionary.sort(function(a,b){
+        //return dictionary.sort(function(a,b){
             if((sort=='ascending' || !sort) && !custom) {
                 return +(a > b) || +(a=== b) - 1;
             }
@@ -21,12 +22,13 @@ function Sort(sort,custom){
                 return +(a.length < b.length) || +(a.length=== b.length) - 1;
             }
             if(sort=='ascending' && custom=='consonant'){
-                return +(a.match(/[^aeiou]git/g).length > b.match(/[^aeiou]/g).length) || +(a.match(/[^aeiou]/g).length=== b.match(/[^aeiou]/g).length) - 1;
+                return +(a.match(/[^aeiou]/g).length > b.match(/[^aeiou]/g).length) || +(a.match(/[^aeiou]/g).length=== b.match(/[^aeiou]/g).length) - 1;
             }
             if(sort=='descending' && custom=='consonant'){
                 return +(a.match(/[^aeiou]/g).length < b.match(/[^aeiou]/g).length) || +(a.match(/[^aeiou]/g).length=== b.match(/[^aeiou]/g).length) - 1;
             }
         });
+    return newArray.join(', ');
 }
 var newArrays=document.getElementsByClassName('newArray');
 newArrays[0].innerHTML="Ascending order: "+Sort();

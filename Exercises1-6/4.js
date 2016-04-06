@@ -10,6 +10,7 @@ var characterA={
     weapon:"sword"
 };
 var characterB={
+
 };
     var button = document.getElementById('copyObj');
     button.addEventListener('click',setProperties(characterA,characterB,['name','age']),false);
@@ -28,6 +29,8 @@ var characterB={
                 for(var i= 0;i<properties.length;i++){
                     obj2[properties[i]]=characterA[properties[i]];
                 }
+                //if(!obj2[properties[i]])
+                console.log(obj2);
             }
             else{
                 for(var n in obj1){
@@ -36,7 +39,7 @@ var characterB={
                     }
                 }
             }
-            document.querySelectorAll('#exercise4 p')[1].innerHTML+= printProperties(characterB);
+            document.querySelectorAll('#exercise4 p')[1].innerHTML= printProperties(characterB);
         }
     }
 })();
