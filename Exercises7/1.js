@@ -42,7 +42,7 @@
             if (Regex.hasOwnProperty(u)) {
                 var column2=document.createElement('p');
                 column2.innerHTML=Strings[u]+"<br>";
-                div[1].appendChild(column2); 
+                div[1].appendChild(column2);
             }
         }
     })();
