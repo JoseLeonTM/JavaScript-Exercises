@@ -2,7 +2,7 @@
 body{
     background-color: #3f78fe;
     font-size: 16px;
-    font-family: verdana, arial, sans-serif;
+    font-family: arial,verdana, sans-serif;
 }
 h1{
     background-color: rgba(255,255,255,0.7);
@@ -19,8 +19,7 @@ h1{
     width:80%;
     background-color: white;
     padding-top: 60px;
-    box-shadow: -5px 0px 5px rgba(0,0,0,0.3);
-
+    box-shadow: -5px 0 5px rgba(0,0,0,0.3);
 }
 article{
     border-top: 1px solid #3f78fe;
@@ -28,4 +27,28 @@ article{
     padding: 20px 10px;
     margin: 10px auto;
     width: 90%;
+}
+/*////////////////////////////////EXERCISE 0/////////////////////////////////////////*/
+#exercise1-1 div{
+    width: 80%;
+    margin:0 auto;
+    background-color: red;
+}
+#exercise1-1 p:first-child{
+    border-right: 1px solid #3f78fe;
+    text-align: right;
+}
+#exercise1-1 p {
+    width: 40%;
+    padding:10px;
+    display:inline-block;
+}
+#exercise1-1 button{
+    display:block;
+    width: 100px;
+    margin: 0 auto;
+    border:0;
+    background-color: #3f78fe;
+    color:white;
+    font-size:20px;
 }
