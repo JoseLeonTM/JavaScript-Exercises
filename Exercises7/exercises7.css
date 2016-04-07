@@ -16,10 +16,20 @@ h1{
 }
 #exercises{
     float:right;
-    width:80%;
+    width:85%;
     background-color: white;
     padding-top: 60px;
     box-shadow: -5px 0 5px rgba(0,0,0,0.3);
+}
+button{
+    display:block;
+    width: 100px;
+    margin: 10px auto;
+    border:0;
+    background-color: #3f78fe;
+    color:white;
+    font-size:20px;
+    cursor: pointer;
 }
 article{
     border-top: 1px solid #3f78fe;
@@ -28,27 +38,33 @@ article{
     margin: 10px auto;
     width: 90%;
 }
-/*////////////////////////////////EXERCISE 0/////////////////////////////////////////*/
-#exercise1-1 div{
-    width: 80%;
-    margin:0 auto;
-    background-color: red;
-}
-#exercise1-1 p:first-child{
-    border-right: 1px solid #3f78fe;
+h2{
     text-align: right;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
-#exercise1-1 p {
+h3{
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+p{
+    padding: 10px;
+}
+/*////////////////////////////////EXERCISE 1-1/////////////////////////////////////////*/
+#exercise1-1 div{
+    width: 90%;
+    padding:0 4.5%;
+    margin: auto;
+}
+#exercise1-1 div div{
     width: 40%;
-    padding:10px;
-    display:inline-block;
+    display: inline-block;
 }
-#exercise1-1 button{
-    display:block;
-    width: 100px;
-    margin: 0 auto;
-    border:0;
-    background-color: #3f78fe;
-    color:white;
-    font-size:20px;
+/*/////////////////////////////EXERCISE 2-1////////////////////////////////////////*/
+#exercise2-1 label{
+    margin:20px;
+}
+#exercise2-1 p{
+    display:inline-block;
 }
