@@ -50,6 +50,14 @@ h3{
 }
 p{
     padding: 10px;
+    display: inline-block;
+}
+label{
+    margin:20px;
+}
+input{
+    width: 100px;
+    border: 1px solid #3f78fe;
 }
 /*////////////////////////////////EXERCISE 1-1/////////////////////////////////////////*/
 article div{
@@ -58,13 +66,13 @@ article div{
     margin: auto;
 }
 #exercise1-1 div div{
-    width: 40%;
-    display: inline-block;
+width: 40%;
+display: inline-block;
 }
-/*/////////////////////////////EXERCISE 2-1////////////////////////////////////////*/
-#exercise2-1 label{
-    margin:20px;
+#exercise1-1 p{
+display:block;
 }
-#exercise2-1 p{
-    display:inline-block;
+/*///////////////////////////////////////////EXERCISE 2-6/////////////////////////////////////*/
+#exercise2-6 input{
+    width:200px;
 }
