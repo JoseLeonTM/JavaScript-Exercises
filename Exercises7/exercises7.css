@@ -1,0 +1,78 @@
+/*//////////////////////////////////BODY///////////////////////////////////////*/
+body{
+    background-color: #3f78fe;
+    font-size: 16px;
+    font-family: arial,verdana, sans-serif;
+}
+h1{
+    background-color: rgba(255,255,255,0.7);
+    position: fixed;
+    font-size: 30px;
+    padding-left:20px;
+    width: 100%;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.3);
+    line-height: 50px;
+    height: 50px;
+}
+#exercises{
+    float:right;
+    width:85%;
+    background-color: white;
+    padding-top: 60px;
+    box-shadow: -5px 0 5px rgba(0,0,0,0.3);
+}
+button{
+    display:block;
+    width: 100px;
+    margin: 10px auto;
+    border:0;
+    background-color: #3f78fe;
+    color:white;
+    font-size:20px;
+    cursor: pointer;
+}
+article{
+    border-top: 1px solid #3f78fe;
+    /*border-bottom: 1px solid #3f78fe;*/
+    padding: 20px 10px;
+    margin: 10px auto;
+    width: 90%;
+}
+h2{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: right;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+p{
+    padding: 10px;
+    display: inline-block;
+}
+label{
+    margin:20px;
+}
+input{
+    width: 100px;
+    border: 1px solid #3f78fe;
+}
+/*////////////////////////////////EXERCISE 1-1/////////////////////////////////////////*/
+article div{
+    width: 90%;
+    padding:0 4.5%;
+    margin: auto;
+}
+#exercise1-1 div div{
+width: 40%;
+display: inline-block;
+}
+#exercise1-1 p{
+display:block;
+}
+/*///////////////////////////////////////////EXERCISE 2-6/////////////////////////////////////*/
+#exercise2-6 input{
+    width:200px;
+}
