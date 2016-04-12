@@ -80,7 +80,7 @@ button:active{
     display: inline-block;
     padding-bottom:10px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 #noteHolder .noteMenu h4{
     width:45%;
