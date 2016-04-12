@@ -48,7 +48,7 @@ button{
     margin:10px;
 }
 button:active{
-    /*border:1px solid red;*/
+    border:1px solid red;
     background-color: white;
     color:black;
 }
@@ -109,3 +109,44 @@ padding:0 0 2px 0;
 #noteHolder .saveNote{
     display:block;
 }
+/*////////////////////////////////////////EXERCISE 2///////////////////////////////*/
+#dragableDivs .dragHolder, #controllers{
+    border:3px solid black;
+    width: 34%;
+    padding:10px;
+    display: inline-block;
+    height: 200px;
+}
+.dragHolder{
+    margin-top:20px;
+}
+#controllers{
+    width: 20%;
+    /*box-sizing: border-box;*/
+}
+[id ^="subject"]{
+    height: 80px;
+    width: 80px;
+    border-radius: 0;
+    border:1px solid black;
+    float:left;
+    margin:5px;
+    text-align: center;
+    line-height: 80px;
+}
+#controllers label{
+    float:left;
+    width: 100%;
+}
+#controllers button{
+    clear:left;
+    float:left;
+}
+#controllers input{
+    display:block;
+    float:left;
+ }
+#controllers .range {
+    width: 90%;
+}
+

@@ -7,30 +7,61 @@
     <link type="text/css" rel="stylesheet" href="exercises8-15.css"/>
 </head>
 <body>
-    <header>
-        <h1>Exercises</h1>
-        <h2>8-15</h2>
-    </header>
-    <article id="notes">
-        <h3>Exercise 1</h3>
-        <div id="buttonContainer">
-            <button id="newNote">Create Note</button>
-        </div>
-        <div id="noteHolder">
+<header>
+    <!--///////////////////////EXERCISES RUN IN FIREFOX, CHROME AND OPERA//////////////////////-->
+    <h1>Exercises</h1>
+    <h2>8-15</h2>
+</header>
+<!--/////////////////////////////////////EXERCISE 1/////////////////////////////////-->
+<article id="notes">
+    <h3>Exercise 1</h3>
+    <div id="buttonContainer">
+        <button id="newNote">Create Note</button>
+    </div>
+    <div id="noteHolder">
 
+    </div>
+</article>
+<!--/////////////////////////////////TEMPLATE FOR EXERCISE 1//////////////////////////-->
+<template>
+    <div class="note">
+        <div class="noteMenu">
+            <h4></h4>
+            <button class="editNote">Edit</button>
+            <button class="deleteNote">Delete</button>
         </div>
-    </article>
-    <template>
-        <div class="note">
-            <div class="noteMenu">
-                <h4></h4>
-                <button class="editNote">Edit</button>
-                <button class="deleteNote">Delete</button>
-            </div>
-            <div class="noteContent"></div>
-            <button class="saveNote">Save</button>
+        <div class="noteContent"></div>
+        <button class="saveNote">Save</button>
+    </div>
+</template>
+<!--/////////////////////////////////////EXERCISE 2////////////////////////////////-->
+<article id="dragableDivs">
+    <h3>Exercise 2</h3>
+    <div id="containerLeft" class="dragHolder" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="subject1" draggable="true" ondragstart="drag(event)">1</div>
+        <div id="subject2" draggable="true" ondragstart="drag(event)">2</div>
+        <div id="subject3" draggable="true" ondragstart="drag(event)">3</div>
+        <div id="subject4" draggable="true" ondragstart="drag(event)">4</div>
+    </div>
+        <div id="containerCommand" class="dragHolder" ondrop="drop(event)" ondragover="allowDrop(event)">
         </div>
-    </template>
-    <script type="text/javascript" src="1.js"></script>
+        <div id="controllers">
+            <label>Border Color</label>
+                <input type="color" id="borderCOLOR" value="#000000"/>
+            <label>Border Width</label>
+                <input type="range" value="1" min="1" max="10" id="borderWIDTH" class="range"/>
+            <label>Border Radius</label>
+                <input type="range" value="0" min="0" max="50" id="borderRADIUS" class="range"/>
+            <label>Background Color</label>
+                <input type="color" id="backgroundCOLOR" value="#FFFFFF"/>
+            <button id="applyChanges">Apply</button>
+        </div>
+</article>
+<article>
+    <h3>Exercise 3</h3>
+
+</article>
+<script type="text/javascript" src="1.js"></script>
+<script type="text/javascript" src="2.js"></script>
 </body>
 </html>

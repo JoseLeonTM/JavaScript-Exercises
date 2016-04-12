@@ -42,24 +42,14 @@
                 var fragment = document.getElementsByTagName('template')[0].content;
                 var newNote = fragment.querySelector('div').cloneNode(true);
                 if(!notes.length) {
-                    console.log("New");
                     //////////////////////CREATE A NEW NOTE/////////////////////////////
                     newNote.id = (id++).toString();
                     createButton.disabled='true';
                     newNote.querySelector('.editNote').disabled = 'true';
                     newNote.querySelector('.noteContent').contentEditable = 'true';
-                    //newNote.info = {
-                    //    id: newNote.id,
-                    //    text: newNote.querySelector('.noteContent').textContent,
-                    //    created: new Date(),
-                    //    modified: new Date()
-                    //};
-                    //var stringObject = JSON.stringify(newNote.info);
-                    //window.localStorage.setItem(newNote.info.id, stringObject);
                 }
                 /////////////////////////GENERATE STORED NOTES////////////////////////
                 else{
-                    console.log("Stored");
                     var storedInfo=JSON.parse(notes[i]);
                     newNote.id=storedInfo.id;
                     newNote.querySelector('.noteContent').contentEditable='false';
@@ -73,7 +63,6 @@
                     };
                 }
                 newNote.querySelector('h4').textContent = "Note " + newNote.id;
-                console.log(window.localStorage);
                 container.appendChild(newNote);
             }
         }
@@ -117,14 +106,16 @@
                 noteBody.info.text = content.textContent;
             }
             window.localStorage.setItem(noteBody.info.id,JSON.stringify(noteBody.info));
-            console.log(window.localStorage);
         }
         //////////////////////////////////DELETE NOTES////////////////////////////////////
         if(note.target.getAttribute('class')=="deleteNote"){
-            window.localStorage.removeItem(noteBody.info.id);
-            //window.localStorage.clear();
-            console.log(window.localStorage);
-            container.removeChild(document.getElementById(noteBody.info.id));
+            if(noteBody.info) {
+                //window.localStorage.clear();
+                //container.removeChild(document.getElementById(noteBody.info.id));
+                window.localStorage.removeItem(noteBody.info.id);
+            }
+            createButton.disabled='';
+            container.removeChild(noteBody);
         }
     }
 })();
