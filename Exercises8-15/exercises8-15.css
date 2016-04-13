@@ -149,4 +149,8 @@ padding:0 0 2px 0;
 #controllers .range {
     width: 90%;
 }
-
+/*////////////////////////////////////EXERCISE 3//////////////////////////////////*/
+#spinningLetters{
+    margin:20px;
+    font-size: 30px;
+}

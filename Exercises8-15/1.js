@@ -111,7 +111,6 @@
         if(note.target.getAttribute('class')=="deleteNote"){
             if(noteBody.info) {
                 //window.localStorage.clear();
-                //container.removeChild(document.getElementById(noteBody.info.id));
                 window.localStorage.removeItem(noteBody.info.id);
             }
             createButton.disabled='';
