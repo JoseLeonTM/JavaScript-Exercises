@@ -118,7 +118,6 @@
         }
     }
     function deselect(){
-        //if(pauseButton.textContent=="Pause") {
         if(selectedLetter){
                 selectedLetter.style.color = "black";
                 selectedLetter = null;

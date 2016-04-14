@@ -54,7 +54,7 @@ button{
 button:active{
     border:1px solid red;
     background-color: white;
-    color:black;
+    /*color:black;*/
 }
 /*///////////////////////////////////////EXERCISE 1///////////////////////////////////////*/
 #notes{
